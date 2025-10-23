@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Competition-specific
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*.pth
+models/*.h5
+models/*.pkl
+experiments/*
+*.zip
+*.csv
+*.parquet
+*.png
+*.jpg
+*.jpeg
+wandb/
+submissions/
+
+# Kaggle
+kaggle.json
+.kaggle/

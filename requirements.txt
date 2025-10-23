@@ -1,0 +1,54 @@
+# Core Data Science Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+tensorflow>=2.13.0  # Optional, if using TF models
+
+# Signal Processing
+pywt>=1.4.1  # Wavelet transforms for signal processing
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Jupyter and Notebook Support
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Progress Bars and Utilities
+tqdm>=4.65.0
+
+# Data Download and API
+kaggle>=1.5.16
+
+# Image Augmentation (useful for training)
+albumentations>=1.3.0
+
+# Additional Utilities
+pyarrow>=12.0.0  # For parquet file handling
+openpyxl>=3.1.0  # Excel file support if needed
+
+# Model Architecture Libraries (optional, for advanced models)
+timm>=0.9.0  # PyTorch Image Models - for pretrained vision models
+segmentation-models-pytorch>=0.3.3  # If using segmentation approaches
+
+# Experiment Tracking (optional but recommended)
+wandb>=0.15.0  # Weights & Biases for experiment tracking
+
+# Testing
+pytest>=7.4.0
